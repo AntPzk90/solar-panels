@@ -220,7 +220,7 @@ form.overlay__form {
   width: 50px;
   height: 50px;
   position: absolute;
-  background-image: url(../../img/sun.png);
+  background-image: url(../img/sun.png);
   background-size: cover;
   left: 0;
 }
@@ -250,7 +250,7 @@ form.overlay__form {
   width: 43px;
   height: 43px;
   position: absolute;
-  background-image: url(../../img/phone-header.png);
+  background-image: url(../img/phone-header.png);
   background-repeat: no-repeat;
   left: 0;
   top: 6px;
@@ -266,7 +266,7 @@ form.overlay__form {
   }
 }
 .wrapper__bg {
-  background-image: url(../../img/header-bg.png);
+  background-image: url(../img/header-bg.png);
   min-height: 520px;
   background-size: cover;
 }
@@ -529,7 +529,7 @@ form.overlay__form {
 }
 .offer {
   background-color: rgba(196, 196, 196, 0.11);
-  background-image: url(../../img/offer-three.png);
+  background-image: url(../img/offer-three.png);
   background-repeat: no-repeat;
   background-position: calc(0% - 800px) 20%;
   padding: 50px 0;
@@ -619,7 +619,7 @@ form.overlay__form {
   padding: 8px 50px;
 }
 .promo {
-  background-image: url(../../img/promo-img.png);
+  background-image: url(../img/promo-img.png);
   background-size: cover;
   padding: 50px 0;
   color: white;
@@ -675,7 +675,7 @@ form.overlay__form {
 }
 .green-price {
   padding: 50px 0;
-  background-image: url(../../img/green-bg.png);
+  background-image: url(../img/green-bg.png);
   background-repeat: no-repeat;
   background-position: 87vw;
   margin-bottom: 30px;
@@ -759,7 +759,7 @@ form.overlay__form {
   width: 60px;
   height: 60px;
   position: absolute;
-  background-image: url(../../img/green-energy.png);
+  background-image: url(../img/green-energy.png);
   left: 10px;
   top: -10px;
 }
@@ -920,7 +920,7 @@ input[type="radio"] {
 .question {
   text-align: center;
   padding: 40px;
-  background-image: url(../../img/quest-bg.jpg);
+  background-image: url(../img/quest-bg.jpg);
   background-size: cover;
   color: white;
 }
@@ -1030,7 +1030,7 @@ input[type="radio"] {
   width: 35px;
   height: 35px;
   position: absolute;
-  background-image: url(../../img/phone.png);
+  background-image: url(../img/phone.png);
   background-repeat: no-repeat;
   left: 0;
 }
@@ -1046,7 +1046,7 @@ input[type="radio"] {
   width: 40px;
   height: 35px;
   position: absolute;
-  background-image: url(../../img/mail.png);
+  background-image: url(../img/mail.png);
   background-repeat: no-repeat;
   left: 0;
 }
@@ -1062,7 +1062,7 @@ input[type="radio"] {
   width: 35px;
   height: 35px;
   position: absolute;
-  background-image: url(../../img/map.png);
+  background-image: url(../img/map.png);
   background-repeat: no-repeat;
   left: 0;
 }
