@@ -1,3 +1,14 @@
+.header{
+	display: flex;
+	flex-direction: column;
+}
+.header .container:first-child{
+	@media screen and (max-width: @mobile) {
+		order: 2;
+		width: 100%;
+		background-color: #eee;
+	}
+}
 .header__top {
 	display: flex;
 	justify-content: space-between;

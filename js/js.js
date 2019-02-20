@@ -66,11 +66,9 @@ $(document).ready(function(){
 	  	var plansOffset = $("#green").offset().top;
 	  	if($("body").attr("style")){
 	  		$("html, body").animate({scrollTop:plansOffset - headHeight},300);
-	  		console.log(1)
 	  	}
 	  	else{
-	  		$("html, body").animate({scrollTop:plansOffset + headHeight},300);
-	  		console.log(2);
+	  		$("html, body").animate({scrollTop:plansOffset},300);
 	  	}
 	});
 	$("#works-link").on("click",function(e){
