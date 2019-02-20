@@ -1,0 +1,82 @@
+.offer {
+	background-color: rgba(196, 196, 196, 0.11);
+	background-image: url(../../img/offer-three.png);
+	background-repeat: no-repeat;
+	background-position: calc(0% - 800px) 20%;
+	padding: 50px 0;
+	@media screen and (max-width: @tablet) {
+		background-image: none;
+	}
+}
+.offer__img {
+	@media screen and (max-width: @mobile) {
+		display: none;
+	}
+}
+.offer__h2 {
+	text-align: center;
+	@media screen and (max-width: @tablet) {
+		line-height: 30px;
+	}
+}
+
+.offer__list {
+	.reset__list();
+	margin-top: 100px;
+	&>li {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		@media screen and (max-width: @tablet) {
+			justify-content: space-around;
+			align-items: flex-end;		}
+	}
+}
+
+.ofer__info-column {
+	max-width: 620px;
+	@media screen and (max-width: @tablet) {
+		width: 60%;
+	}
+	@media screen and (max-width: @mobile) {
+		width: 100%;
+	}
+}
+.offer__h3 {
+	font-size: @font__h1;
+	line-height: @font__h1;
+	color: @color__h;
+	padding-left: 90px;
+	position: relative;
+	@media screen  and (max-width: @mobile) {
+		padding-right: 50px;
+		font-size: 30px;
+	}
+	&::before {
+		content: "1";
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+		font-size: 140px; 
+		font-weight: bold;
+		color: rgba(165, 155, 155, 0.36);
+	}
+	
+}
+.offer__list li:nth-child(2) .offer__h3::before {
+		content: "2";
+}
+.offer__list li:nth-child(3) .offer__h3::before {
+		content: "3";
+}
+.after__text {
+	font-size: 25px;
+	color: @color__h;
+	font-weight: bold;
+}
+.offer__btn {
+	padding: 8px 50px;
+}
+.offer__text{
+
+}
